@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import LoginPage from './components/simpleLoginUsingState/loginpage';
+import LoginPageUseLocation from './components/simpleLoginUseHistory/loginpage';
 import reportWebVitals from './reportWebVitals';
+
+// import MainPage from './components/simpleRouter/main';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <MainPage /> */}
+    <hr />
+    {/* <LoginPage /> */}
+    <hr />
+    <LoginPageUseLocation />
   </React.StrictMode>,
   document.getElementById('root')
 );
